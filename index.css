@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+header {
+    background: #28a745;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url('medical-hero.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content {
+    color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background: #ffc107;
+    color: #333;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta-button:hover {
+    background: #e0a800;
+    transform: scale(1.05);
+}
+
+.cta-button:active {
+    transform: scale(0.98);
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services, .testimonials {
+    margin-bottom: 40px;
+}
+
+.services h2, .testimonials h2, .contact h2 {
+    font-size: 2.4em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #28a745;
+}
+
+.service-item, .testimonial-item {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.testimonial-item {
+    border-left: 4px solid #28a745;
+}
+
+.testimonial-item p {
+    font-style: italic;
+}
+
+.testimonial-item cite {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    color: #555;
+}
+
+footer {
+    background: #f1f1f1;
+    padding: 20px 0;
+}
+
+footer .contact p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+    section {
+        margin: 10px;
+    }
+}
